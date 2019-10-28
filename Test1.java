@@ -6,6 +6,6 @@ class Test1{
 }
 class Newclass{
     public void m(){
-        System.out.println("Hello world");
+        System.out.println("Hello sri lanka");
     }
 }
