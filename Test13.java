@@ -1,4 +1,3 @@
-//Method overriding
 class Monkey{
     void eat(){
         System.out.println("Monkey can eat");
