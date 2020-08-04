@@ -1,18 +1,20 @@
-class Test16{
-    public static void main(String[] args){
-        int y=0;
-        
-        do{
-            int x=0;    
-            do{
-            System.out.print("*");
-            x++;
-        }while(x<10);
-        
-            System.out.println();
-            y++;        
-        }
- 
-        while(y<10);
-    }
+public class Test28 {
+
+  static void myStaticMethod() {
+    System.out.println("Static methods can be called without creating objects");
+  }
+
+  
+  public void myPublicMethod() {
+    System.out.println("Public methods must be called by creating objects");
+  }
+
+  
+  public static void main(String[] args) {
+    myStaticMethod(); 
+    // myPublicMethod(); compile an error
+
+    Test28 myObj = new Test28(); 
+    myObj.myPublicMethod(); 
+  }
 }
