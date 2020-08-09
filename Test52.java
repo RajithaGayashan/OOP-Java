@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Test51 {
+public class Test52 {
  public static int febonacciRecursion(int n){
         if(n==0)
             return 0;
